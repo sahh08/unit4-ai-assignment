@@ -9,3 +9,4 @@ def recommend_movie(mood):
     }
     
     return recommendations.get(mood.lower(), "Sorry, I don't have a recommendation for that mood.")
+print(recommend_movie("happy"))
